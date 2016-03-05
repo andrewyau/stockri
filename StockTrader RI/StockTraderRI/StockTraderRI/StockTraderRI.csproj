@@ -95,6 +95,7 @@
     <Compile Include="ShellViewModel.cs" />
     <Compile Include="StockTraderRIBootstrapper.cs" />
     <Compile Include="StockTraderRIBootstrapper.Desktop.cs" />
+    <Compile Include="VisibilityToStarHeightConverter.Desktop.cs" />
     <Page Include="Shell.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
