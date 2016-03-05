@@ -1,5 +1,0 @@
-C:\dev\stockri\StockTrader RI_Sample\Desktop\StockTraderRI\bin\Debug\StockTraderRI.exe
-C:\dev\stockri\StockTrader RI_Sample\Desktop\StockTraderRI\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
-C:\dev\stockri\StockTrader RI_Sample\Desktop\StockTraderRI\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
-C:\dev\stockri\StockTrader RI_Sample\Desktop\StockTraderRI\bin\Debug\Microsoft.Practices.Prism.Composition.dll
-C:\dev\stockri\StockTrader RI_Sample\Desktop\StockTraderRI\bin\Debug\StockTraderRI.Modules.News.dll
