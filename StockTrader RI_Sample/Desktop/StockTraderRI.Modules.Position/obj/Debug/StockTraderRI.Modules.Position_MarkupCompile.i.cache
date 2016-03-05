@@ -4,7 +4,7 @@
 library
 C#
 .cs
-C:\Users\yauan\Desktop\WPF PRISM\StockTrader RI\Desktop\StockTraderRI.Modules.Position\obj\Debug\
+C:\dev\stockri\StockTrader RI_Sample\Desktop\StockTraderRI.Modules.Position\obj\Debug\
 StockTraderRI.Modules.Position
 none
 false
@@ -13,7 +13,7 @@ DEBUG;TRACE
 6310935740
 
 41389034063
-73-955774706
+73-1197709173
 Orders\OrderCommandsView.xaml;Orders\OrderCompositeView.xaml;Orders\OrderDetailsView.xaml;Orders\OrdersView.xaml;PositionSummary\PositionPieChartView.xaml;PositionSummary\PositionSummaryView.xaml;
 
 False

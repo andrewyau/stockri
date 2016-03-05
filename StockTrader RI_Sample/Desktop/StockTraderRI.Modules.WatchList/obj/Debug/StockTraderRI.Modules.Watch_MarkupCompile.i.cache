@@ -4,7 +4,7 @@
 library
 C#
 .cs
-C:\Users\yauan\Desktop\WPF PRISM\StockTrader RI\Desktop\StockTraderRI.Modules.WatchList\obj\Debug\
+C:\dev\stockri\StockTrader RI_Sample\Desktop\StockTraderRI.Modules.WatchList\obj\Debug\
 StockTraderRI.Modules.Watch
 none
 false
@@ -13,7 +13,7 @@ DEBUG;TRACE
 22146525904
 
 15-165108984
-71151222975
+711215399612
 AddWatch\AddWatchView.xaml;WatchList\WatchListView.xaml;
 
 False
