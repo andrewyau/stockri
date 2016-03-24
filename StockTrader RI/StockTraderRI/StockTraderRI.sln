@@ -5,6 +5,14 @@ VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StockTraderRI", "StockTraderRI\StockTraderRI.csproj", "{0F0EC0DE-764E-4A14-BFAD-A09E8F53991A}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_StockTraderRI Common", "_StockTraderRI Common", "{25F3969A-C6CD-445A-B2A5-E85BA0771374}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StockTraderRI.Infrastructure", "StockTraderRI.Infrastructure\StockTraderRI.Infrastructure.csproj", "{C624C728-B3A3-4063-9B3F-42EAD47D9545}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StockTraderRI.Modules.Watch", "StockTraderRI.Modules.Watch\StockTraderRI.Modules.Watch.csproj", "{79A7C896-E8EA-4ED1-92CA-192ED2A863AE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{DE2BFA83-0B96-440B-A99B-5B56AE3C7A1D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,9 +23,21 @@ Global
 		{0F0EC0DE-764E-4A14-BFAD-A09E8F53991A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0F0EC0DE-764E-4A14-BFAD-A09E8F53991A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0F0EC0DE-764E-4A14-BFAD-A09E8F53991A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C624C728-B3A3-4063-9B3F-42EAD47D9545}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C624C728-B3A3-4063-9B3F-42EAD47D9545}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C624C728-B3A3-4063-9B3F-42EAD47D9545}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C624C728-B3A3-4063-9B3F-42EAD47D9545}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79A7C896-E8EA-4ED1-92CA-192ED2A863AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79A7C896-E8EA-4ED1-92CA-192ED2A863AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79A7C896-E8EA-4ED1-92CA-192ED2A863AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79A7C896-E8EA-4ED1-92CA-192ED2A863AE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C624C728-B3A3-4063-9B3F-42EAD47D9545} = {25F3969A-C6CD-445A-B2A5-E85BA0771374}
+		{79A7C896-E8EA-4ED1-92CA-192ED2A863AE} = {DE2BFA83-0B96-440B-A99B-5B56AE3C7A1D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		EnterpriseLibraryConfigurationToolBinariesPathV6 = packages\EnterpriseLibrary.Common.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.Logging.6.0.1304.0\lib\NET45
