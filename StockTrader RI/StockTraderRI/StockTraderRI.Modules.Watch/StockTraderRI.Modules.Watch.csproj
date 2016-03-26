@@ -64,7 +64,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AddWatch\AddWatchViewModel.cs" />
-    <Compile Include="AddWatch\WatchListService.cs" />
+    <Compile Include="Services\WatchListService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Services\IWatchListService.cs" />
     <Compile Include="WatchItem.cs" />
