@@ -40,6 +40,9 @@
       <HintPath>..\packages\EnterpriseLibrary.Common.6.0.1304.0\lib\NET45\Microsoft.Practices.EnterpriseLibrary.Common.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.ExceptionHandling">
+      <HintPath>..\packages\EnterpriseLibrary.ExceptionHandling.6.0.1304.0\lib\NET45\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.Practices.EnterpriseLibrary.Logging, Version=6.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\EnterpriseLibrary.Logging.6.0.1304.0\lib\NET45\Microsoft.Practices.EnterpriseLibrary.Logging.dll</HintPath>
       <Private>True</Private>
@@ -166,6 +169,10 @@
     <ProjectReference Include="..\StockTraderRI.Infrastructure\StockTraderRI.Infrastructure.csproj">
       <Project>{c624c728-b3a3-4063-9b3f-42ead47d9545}</Project>
       <Name>StockTraderRI.Infrastructure</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\StockTraderRI.Modules.Watch\StockTraderRI.Modules.Watch.csproj">
+      <Project>{79a7c896-e8ea-4ed1-92ca-192ed2a863ae}</Project>
+      <Name>StockTraderRI.Modules.Watch</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

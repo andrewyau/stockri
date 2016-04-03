@@ -4,6 +4,12 @@ using System;
 using System.ComponentModel.Composition.Hosting;
 using System.Windows;
 using Microsoft.Practices.Prism.MefExtensions;
+using StockTraderRI.Infrastructure;
+//using StockTraderRI.Modules.Market;
+//using StockTraderRI.Modules.News;
+//using StockTraderRI.Modules.Position;
+using StockTraderRI.Modules.Watch;
+
 
 
 namespace StockTraderRI
@@ -14,10 +20,10 @@ namespace StockTraderRI
         protected override void ConfigureAggregateCatalog()
         {
             this.AggregateCatalog.Catalogs.Add(new AssemblyCatalog(typeof(StockTraderRIBootstrapper).Assembly));
-            //this.AggregateCatalog.Catalogs.Add(new AssemblyCatalog(typeof(StockTraderRICommands).Assembly));
+            this.AggregateCatalog.Catalogs.Add(new AssemblyCatalog(typeof(StockTraderRICommands).Assembly));
             //this.AggregateCatalog.Catalogs.Add(new AssemblyCatalog(typeof(MarketModule).Assembly));
             //this.AggregateCatalog.Catalogs.Add(new AssemblyCatalog(typeof(PositionModule).Assembly));
-            //this.AggregateCatalog.Catalogs.Add(new AssemblyCatalog(typeof(WatchModule).Assembly));
+            this.AggregateCatalog.Catalogs.Add(new AssemblyCatalog(typeof(WatchModule).Assembly));
             //this.AggregateCatalog.Catalogs.Add(new AssemblyCatalog(typeof(NewsModule).Assembly));
         }
 
@@ -38,7 +44,7 @@ namespace StockTraderRI
         {
             var factory = base.ConfigureDefaultRegionBehaviors();
 
-            //factory.AddIfMissing("AutoPopulateExportedViewsBehavior", typeof(AutoPopulateExportedViewsBehavior));
+            factory.AddIfMissing("AutoPopulateExportedViewsBehavior", typeof(AutoPopulateExportedViewsBehavior));
 
             return factory;
         }

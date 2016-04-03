@@ -34,13 +34,13 @@
                 <SplineDoubleKeyFrame KeyTime="00:00:00" Value="-72"/>
                 <SplineDoubleKeyFrame KeyTime="00:00:01" Value="-157"/>
                 <SplineDoubleKeyFrame KeySpline="0.5,0,0.5,1" KeyTime="00:00:01.5000000" Value="0"/>
-            </DoubleAnimationUsingKeyFrames>
+            </DoubleAnimationUsingKeyFrames>-->
             <DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="Logo" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)">
                 <SplineDoubleKeyFrame KeyTime="00:00:00" Value="-50"/>
                 <SplineDoubleKeyFrame KeyTime="00:00:02" Value="-101"/>
                 <SplineDoubleKeyFrame KeySpline="0,0,0,1" KeyTime="00:00:02.5000000" Value="0"/>
             </DoubleAnimationUsingKeyFrames>
-            <DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="SideGrid" Storyboard.TargetProperty="(UIElement.Opacity)">
+            <!--<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="SideGrid" Storyboard.TargetProperty="(UIElement.Opacity)">
                 <SplineDoubleKeyFrame KeyTime="00:00:00" Value="0"/>
                 <SplineDoubleKeyFrame KeyTime="00:00:01.5000000" Value="0"/>
                 <SplineDoubleKeyFrame KeyTime="00:00:02" Value="1" KeySpline="0,0.5,0.5,1"/>
@@ -51,13 +51,13 @@
                 <SplineDoubleKeyFrame KeyTime="00:00:01.5000000" Value="400"/>
                 <SplineDoubleKeyFrame KeySpline="0,1,0.5,1" KeyTime="00:00:02" Value="0"/>
                 <SplineDoubleKeyFrame KeyTime="00:00:02.5000000" Value="0"/>
-            </DoubleAnimationUsingKeyFrames>
+            </DoubleAnimationUsingKeyFrames>-->
             <DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="MainToolbar" Storyboard.TargetProperty="(UIElement.Opacity)">
                 <SplineDoubleKeyFrame KeyTime="00:00:00" Value="0"/>
                 <SplineDoubleKeyFrame KeyTime="00:00:01.5000000" Value="0"/>
                 <SplineDoubleKeyFrame KeyTime="00:00:02" Value="1"/>
             </DoubleAnimationUsingKeyFrames>
-            <DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="DetailsGrid" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleY)">
+            <!--<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="DetailsGrid" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleY)">
                 <SplineDoubleKeyFrame KeyTime="00:00:00" Value="0.20833317935466766"/>
                 <SplineDoubleKeyFrame KeyTime="00:00:01.5000000" Value="0.05"/>
                 <SplineDoubleKeyFrame KeySpline="0,0.495999991893768,0.504000008106232,1" KeyTime="00:00:02" Value="0.05"/>
@@ -80,12 +80,12 @@
                 <SplineDoubleKeyFrame KeyTime="00:00:01.5000000" Value="0"/>
                 <SplineDoubleKeyFrame KeyTime="00:00:02" Value="0"/>
                 <SplineDoubleKeyFrame KeyTime="00:00:02.5000000" Value="0"/>
-            </DoubleAnimationUsingKeyFrames>
+            </DoubleAnimationUsingKeyFrames>-->
             <DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="MainToolbar" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)">
                 <SplineDoubleKeyFrame KeyTime="00:00:00" Value="100"/>
                 <SplineDoubleKeyFrame KeyTime="00:00:01.5000000" Value="100"/>
                 <SplineDoubleKeyFrame KeyTime="00:00:02" Value="0" KeySpline="0,0.495999991893768,0.504000008106232,1"/>
-            </DoubleAnimationUsingKeyFrames>-->
+            </DoubleAnimationUsingKeyFrames>
         </Storyboard>
     </Window.Resources>
     <Window.Triggers>
