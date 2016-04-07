@@ -39,14 +39,14 @@ namespace StockTraderRI.Infrastructure
             }
         }
 
-        //[System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Performance", "CA1819:PropertiesShouldNotReturnArrays", Justification = "MEF injected values"), ImportMany(AllowRecomposition = true)]
-        //public Lazy<object, IViewRegionRegistration>[] RegisteredViews { get; set; }
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Performance", "CA1819:PropertiesShouldNotReturnArrays", Justification = "MEF injected values"), ImportMany(AllowRecomposition = true)]
+        public Lazy<object, IViewRegionRegistration>[] RegisteredViews { get; set; }
 
-        private Lazy<object, IViewRegionRegistration>[] _registeredViews;
-        public Lazy<object, IViewRegionRegistration>[] RegisteredViews
-        {
-            get { return _registeredViews; }
-            set { _registeredViews = value; }
-        }
+        //private Lazy<object, IViewRegionRegistration>[] _registeredViews;
+        //public Lazy<object, IViewRegionRegistration>[] RegisteredViews
+        //{
+        //    get { return _registeredViews; }
+        //    set { _registeredViews = value; }
+        //}
     }
 }
